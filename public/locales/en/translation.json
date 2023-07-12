@@ -1,0 +1,21 @@
+{
+  "login_email": "Email",
+  "login_password": "Password",
+  "login_button": "Login",
+  "dashboard_sidebar_dashboard": "Dashboard",
+  "dashboard_sidebar_quotation": "Quotation",
+  "dashboard_sidebar_contract": "Contract",
+  "dashboard_sidebar_employee": "Employee",
+  "dashboard_sidebar_project": "Project",
+  "dashboard_sidebar_client": "Client",
+  "dashboard_sidebar_nationality": "Nationality",
+  "dashboard_sidebar_vendor": "Vendor",
+  "dashboard_sidebar_visa": "Visa",
+  "dashboard_sidebar_rate_category": "Rate Category",
+  "dashboard_sidebar_task": "Task",
+  "dashboard_sidebar_finance": "Finance",
+  "dashboard_sidebar_users_list": "Users List",
+  "dashboard_sidebar_roles_and_permission": "Roles and Permission",
+  "dashboard_sidebar_company_settings": "Company Settings",
+  "dashboard_sidebar_settings": "Settings"
+}

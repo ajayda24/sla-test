@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* form {
+  > div {
+    > input[type="text"],
+    > input[type="email"],
+    > input[type="password"],
+    > input[type="tel"] {
+      padding: 0.7rem;
+      border: none;
+      border-bottom: 1px solid black;
+      border-radius: 3px;
+      background-color: #f1f5f9;
+      &:focus {
+        border: none;
+        border-bottom: 1px solid black;
+      }
+      &:invalid:not(:focus):not(:placeholder-shown) {
+        background: pink;
+        & + label {
+          opacity: 0;
+        }
+      }
+
+      &:invalid:focus:not(:placeholder-shown) {
+        & ~ .requirements {
+          max-height: 200px;
+          padding: 0 30px 20px 50px;
+        }
+      }
+    }
+
+    .requirements {
+      padding: 0 30px 0 50px;
+      color: #999;
+      max-height: 0;
+      transition: 0.28s;
+      overflow: hidden;
+      color: red;
+      font-style: italic;
+    }
+  }
+} */
+
+/* form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > input[type="password"],
+form > div > input[type="tel"],
+form > div > select {
+  padding: 0.7rem;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 2px;
+  background-color: #f1f5f9;
+}
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus,
+form > div > input[type="password"]:focus,
+form > div > input[type="tel"]:focus,
+form > div > select:focus {
+  border: none;
+  border-bottom: 1px solid black;
+}
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="password"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="tel"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > select:invalid:not(:focus):not(:placeholder-shown) {
+  background: pink;
+}
+form
+  > div
+  > input[type="text"]:invalid:not(:focus):not(:placeholder-shown)
+  + label,
+form
+  > div
+  > input[type="email"]:invalid:not(:focus):not(:placeholder-shown)
+  + label,
+form
+  > div
+  > input[type="password"]:invalid:not(:focus):not(:placeholder-shown)
+  + label,
+form
+  > div
+  > input[type="tel"]:invalid:not(:focus):not(:placeholder-shown)
+  + label,
+form > div > select:invalid:not(:focus):not(:placeholder-shown) + label {
+  opacity: 0;
+}
+form
+  > div
+  > input[type="text"]:invalid:focus:not(:placeholder-shown)
+  ~ .requirements,
+form
+  > div
+  > input[type="email"]:invalid:focus:not(:placeholder-shown)
+  ~ .requirements,
+form
+  > div
+  > input[type="password"]:invalid:focus:not(:placeholder-shown)
+  ~ .requirements,
+form
+  > div
+  > input[type="tel"]:invalid:focus:not(:placeholder-shown)
+  ~ .requirements,
+form > div > select:invalid:focus:not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding: 0 30px 20px 50px;
+}
+form > div .requirements {
+  padding: 0 30px 0 50px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  color: red;
+  font-style: italic;
+} */
